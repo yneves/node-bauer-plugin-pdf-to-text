@@ -7,7 +7,7 @@ var assert = require("assert");
 
 // - -------------------------------------------------------------------- - //
 
-describe("pdftotext",function() {
+describe("pdf-to-text",function() {
 
   it("require",function() {
     require(__dirname + "/../lib/promise.js");

@@ -1,6 +1,6 @@
 {
   "name": "bauer-crawler-pdf-to-text",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin for bauer-crawler to convert PDF into text.",
   "keywords": [
     "multi-thread",
@@ -14,7 +14,7 @@
     "scraper"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/yneves/node-bauer-crawler-pdftotext",
+  "homepage": "https://github.com/yneves/node-bauer-crawler-pdf-to-text",
   "author": {
     "name": "Yuri Neves Silveira",
     "url": "http://yneves.com/",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yneves/node-bauer-crawler-pdftotext.git"
+    "url": "https://github.com/yneves/node-bauer-crawler-pdf-to-text.git"
   },
   "scripts": {
     "test": "mocha"
