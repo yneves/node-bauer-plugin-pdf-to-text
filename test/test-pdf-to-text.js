@@ -11,12 +11,11 @@ describe("pdf-to-text",function() {
 
   it("require",function() {
     require(__dirname + "/../lib/promise.js");
-    require(__dirname + "/../lib/master.js");
     require(__dirname + "/../lib/worker.js");
     require(__dirname + "/../lib/index.js");
   });
   
-  it("pdftotext",function(done) {
+  it("sample",function(done) {
     var proc = cp.spawn("node",[__dirname + "/sample/sample.js"],{ stdio: "pipe" });
     var output = "";
     proc.stdout.on("data",function(data) {
