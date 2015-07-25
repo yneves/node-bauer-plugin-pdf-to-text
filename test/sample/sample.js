@@ -8,7 +8,7 @@ var Crawler = require("bauer-crawler");
 
 var crawler = new Crawler();
 
-crawler.require(__dirname + "/../../");
+crawler.loadPlugin(__dirname + "/../../");
 
 crawler.ready(function() {
   
@@ -16,7 +16,7 @@ crawler.ready(function() {
     .pdfToText(__dirname + "/sample.pdf")
     .then(function(file) {
       var output = fs.readFileSync(file).toString();
-      var compare = fs.readFileSync(__dirname + "/sample.txt").toString();
+      var compare = fs.readFileSync(__dirname + "/sample-compare.txt").toString();
       assert.deepEqual(output,compare);
       fs.unlinkSync(file);
     })
