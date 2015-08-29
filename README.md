@@ -1,2 +1,2 @@
-# node-bauer-crawler-pdf-to-text
-Pluginf or bauer-crawler to convert PDF into text.
+# node-bauer-plugin-pdf-to-text
+Plugin for bauer to convert PDF into text.
