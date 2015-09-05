@@ -12,7 +12,7 @@ crawler.loadPlugin(__dirname + "/../../");
 
 crawler.start(function() {
   
-  return this.promise()
+  return this.Promise
     .pdfToText(__dirname + "/sample.pdf")
     .then(function(file) {
       var output = fs.readFileSync(file).toString();
